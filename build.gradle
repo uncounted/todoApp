@@ -38,3 +38,10 @@ tasks.withType(KotlinCompile) {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+
+bootJar{
+	archivesBaseName = 'todoApp'
+	archiveFileName = 'todoApp.jar'
+	archiveVersion = "0.0.0"
+}
