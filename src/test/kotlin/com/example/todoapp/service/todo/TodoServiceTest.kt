@@ -4,12 +4,12 @@ import com.example.todoapp.domain.todo.Todo
 import com.example.todoapp.dto.todo.TodoCreateRequest
 import com.example.todoapp.repository.TodoRepository
 import com.example.todoapp.service.TodoService
-import org.junit.jupiter.api.DisplayName
-import org.springframework.boot.test.context.SpringBootTest
 import org.assertj.core.api.Assertions.*
 import org.junit.jupiter.api.AfterEach
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
 class TodoServiceTest @Autowired constructor(
